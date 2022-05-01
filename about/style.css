@@ -22,3 +22,10 @@ footer img:hover {
 p {
     font-size: 24px;
 }
+
+.contain {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
