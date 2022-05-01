@@ -12,6 +12,7 @@ footer {
     border: 3px solid #eee;
     border-radius: 5px;
     background-color: #eee;
+    border: 0px;
 }
 
 footer img {
@@ -28,4 +29,12 @@ footer img:hover {
 .dance {
     font-family: 'Bangers', cursive;
     margin-top: 0;
+}
+
+.contain {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
