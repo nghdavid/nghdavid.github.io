@@ -2,12 +2,6 @@
 {
 }
 
-.jumbotron-background {
-    background: url(images/background.jpg) no-repeat center center;
-    background-size: cover;
-    height: 35rem;
-}
-
 footer {
     border: 3px solid #eee;
     border-radius: 5px;
@@ -25,7 +19,6 @@ footer img:hover {
     transform: scale(1.1);
 }
 
-.dance {
-    font-family: 'Bangers', cursive;
-    margin-top: 0;
+p {
+    font-size: 24px;
 }

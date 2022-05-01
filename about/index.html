@@ -2,27 +2,112 @@
 
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="style.css" type="text/css" rel="stylesheet">
     <title>About me</title>
 </head>
 <body>
-    <h1>About me</h1>
-    <p> I am Kuan-Hao Chen. I was born in Kaohsiung, Taiwan.</p>
+
+
+    <!-- Navbar Component -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="../images/logo-black.png" class="d-inline-block align-top" width="100" height="100" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://nghdavid.github.io/">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="font-weight-bold display-4">About me</h1>
+                <p> I am Kuan-Hao Chen. I was born in Kaohsiung, Taiwan.</p>
+            </div>
+        </div>
+
+        <div class="row  mb-5">
+            <div class="col">
+                <p>
+                    I got my bachelor's degree of life science in National Taiwan University. I finished my Master
+                    at the molecular medicine department in National Tsing Hua University. I studied how the retina process
+                    visual motion in my Master. After I finished my master, I worked as a research assistant in Academia Sinica and
+                    applied for PhD abroad. But after working for 9 months, I decided to change my career path. I make up my mind to become a software engineer.
+
+                </p>
+                <p>
+                    I started programming when I was freshman in NTU. I self taught myself Python via codeacademy and edx. I then took
+                    a programming class to learn C++. After that, I took Algorithms class in EE department and implemented several algorithms
+                    including merge sort, dynamic programming, greedy algoritm, genetics algorithm using C++. Besides, I learned matlab
+                    and used it to analyze data in my independent study. I also used python to do a lot of simulations in my independent study.
+                    I also wrote a web crawling program using Python bs4 package in my final project. Furthermore, I took math courses like
+                    linear algebra, probability, differential equation to sharpen my quantitative skills.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    
     <br>
-    <p>
-        I got my bachelor’s degree of life science in National Taiwan University. I finished my Master
-        at the molecular medicine department in National Tsing Hua University. I studied how the retina process
-        visual motion in my Master. After I finished my master, I worked as a research assistant in Academia Sinica and
-        applied for PhD abroad. But after working for 9 months, I decided to change my career path. I make up my mind to become a software engineer.
-    </p>
-    <br>
-    <p>
-        I started programming when I was freshman in NTU. I self taught myself Python via codeacademy and edx. I then took
-        a programming class to learn C++. After that, I took Algorithms class in EE department and implemented several algorithms
-        including merge sort, dynamic programming, greedy algoritm, genetics algorithm using C++. Besides, I learned matlab
-        and used it to analyze data in my independent study. I also used python to do a lot of simulations in my independent study.
-        I also wrote a web crawling program using Python bs4 package in my final project. Furthermore, I took math courses like
-        linear algebra, probability, differential equation to sharpen my quantitative skills.
-    </p>
+    
+    
+
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center display-4">Contact me</h2>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-3">
+                    <a href="https://github.com/nghdavid" target="_blank">
+                        <img src="../images/github.png" alt="github" />
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a href="https://twitter.com/KuanHaoChen2" target="_blank">
+                        <img src="../images/twitter.jpg" alt="twitter" />
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a href="https://www.facebook.com/david.chen.9256/" target="_blank">
+                        <img src="../images/facebook.webp" alt="facebook" />
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a href="https://www.linkedin.com/in/kuan-hao-chen-19b56b19a/" target="_blank">
+                        <img src="../images/linkdelin.png" alt="facebook" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap's JavaScript Files -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 </html>
