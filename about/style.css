@@ -29,3 +29,27 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+#float-left-circle {
+    width: 100px;
+    height: 100px;
+    background: #fd4d3f;
+    border-radius: 100px;
+    bottom: 20%;
+    left: 5%;
+    position: absolute;
+    transition-property: bottom;
+    transition-duration: 2s;
+}
+
+#float-right-circle {
+    width: 100px;
+    height: 100px;
+    background: #fd4d3f;
+    border-radius: 100px;
+    bottom: 80%;
+    left: 90%;
+    position: absolute;
+    transition-property: bottom;
+    transition-duration: 2s;
+}
